@@ -1,0 +1,108 @@
+/* Container styling */
+.openai-container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 150, 255, 0.6);
+    backdrop-filter: blur(8px);
+    color: white;
+  }
+  
+  /* Form styling */
+  .openai-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Input container for input field and arrow */
+  .openai-input-container {
+    position: relative;
+    width: 96%;
+    padding-left: 35px;
+  }
+  
+  .openai-input {
+    width: 95%;
+    padding: 15px 40px 15px 15px; /* Add padding-right for the arrow */
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .openai-input:focus {
+    outline: none;
+    border-color: #00bfff;
+  }
+  
+  /* Arrow icon styling */
+  .send-arrow {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .send-arrow:hover {
+    color: #00bfff;
+  }
+  
+  /* Button styling */
+  .openai-button {
+    padding: 15px;
+    border: none;
+    border-radius: 7.5px;
+    background: linear-gradient(135deg, #007bff, #00bfff);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .openai-button:hover {
+    background: linear-gradient(135deg, #0056b3, #00aaff);
+  }
+  
+  /* Button spacing */
+  .openai-button.generate {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+  }
+  
+  /* Output display styling */
+  .output-display {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    max-width: 100%;
+    overflow: auto;
+  }
+  
+  /* Textarea styling for editable JSON */
+  textarea {
+    width: 100%;
+    height: 800px;
+    max-width: 1200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+  }
+  
